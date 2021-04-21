@@ -1,0 +1,160 @@
+[
+  {
+    "table": "MXFAC",
+    "primaryKey": [
+      "FECHA",
+      "COD_SUC",
+      "COD_CPB",
+      "PREFIJO",
+      "NUMERO"
+    ]
+  },
+  {
+    "table": "MXMVS",
+    "primaryKey": [
+      "FECHA",
+      "PREFIJO",
+      "REMITO",
+      "ARTINS",
+      "ORDEN"
+    ]
+  },
+  {
+    "table": "MXAUD",
+    "primaryKey": [
+      "FECHA",
+      "TURNO",
+      "HORA_APE",
+      "MESA"
+    ]
+  },
+  {
+    "table": "MXINV",
+    "primaryKey": [
+      "FECHA",
+      "TURNO",
+      "COD_INS",
+      "HORA"
+    ]
+  },
+  {
+    "table": "MXDTO",
+    "primaryKey": [
+      "CODIGO"
+    ]
+  },
+  {
+    "table": "MXCMO",
+    "primaryKey": [
+      "CODIGO"
+    ]
+  },
+  {
+    "table": "MXCTV",
+    "primaryKey": [
+      "CODIGO"
+    ]
+  },
+  {
+    "table": "MXEMP",
+    "primaryKey": [
+      "CODIGO"
+    ]
+  },
+  {
+    "table": "MXCPB",
+    "primaryKey": [
+      "FECHA",
+      "CODIGO",
+      "NOMBRE",
+      "VALOR"
+    ]
+  },
+  {
+    "table": "MXFOR",
+    "primaryKey": [
+      "CODIGO"
+    ]
+  },
+  {
+    "table": "MXREC",
+    "primaryKey": [
+      "COD_ART",
+      "COD_INS"
+    ]
+  },
+  {
+    "table": "MXCTC",
+    "primaryKey": [
+      "FECHA",
+      "COD_SUC",
+      "COD_CPB",
+      "PREFIJO",
+      "NUMERO",
+      "COD_FOR",
+      "IMPORTE",
+      "PAGO"
+    ]
+  },
+  {
+    "table": "MXITE",
+    "primaryKey": [
+      "FECHA",
+      "COD_SUC",
+      "COD_ART",
+      "PREFIJO",
+      "NUMERO",
+      "PADRE",
+      "HIJO"
+    ]
+  },
+  {
+    "table": "MXSTK",
+    "primaryKey": [
+      "FECHA",
+      "COD_SUC",
+      "COD_INS"
+    ]
+  },
+  {
+    "table": "MXRUI",
+    "primaryKey": [
+      "CODIGO"
+    ]
+  },
+  {
+    "table": "MXGAS",
+    "primaryKey": [
+      "FECHA",
+      "COD_SUC",
+      "COD_PRO",
+      "NUMERO1",
+      "NUMERO2"
+    ]
+  },
+  {
+    "table": "MXPAG",
+    "primaryKey": [
+      "FECHA",
+      "COD_SUC",
+      "NUMERO2"
+    ]
+  },
+  {
+    "table": "MXCJM",
+    "primaryKey": [
+      "FECHA",
+      "NUMERO"
+    ]
+  },
+  {
+    "table": "MXITC",
+    "primaryKey": [
+      "FECHA",
+      "NUMERO2",
+      "COD_SUC",
+      "COD_INS",
+      "PRECIO"
+    ]
+  }
+]
