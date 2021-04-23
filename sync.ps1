@@ -1,4 +1,4 @@
-C:\Program Files\Git\bin\git.exe pull
+C:\"Program Files"\Git\bin\git.exe pull
 
 xcopy.exe C:\Goodline\customdata.json C:\bipost_havanna /Y
 
