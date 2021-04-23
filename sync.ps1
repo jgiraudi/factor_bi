@@ -1,5 +1,4 @@
-C:\Program Files\Git\bin\git.exe clone https://github.com/jgiraudi/factor_bi.git .
-
+C:\Program Files\Git\bin\git.exe pull
 
 xcopy.exe C:\Goodline\customdata.json C:\bipost_havanna /Y
 
