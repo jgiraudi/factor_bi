@@ -26,4 +26,4 @@ $Settings = New-ScheduledTaskSettingsSet
 
 $Task = New-ScheduledTask -Action $Action -Trigger $Trigger -Settings $Settings
 
-Register-ScheduledTask -TaskName 'My PowerShell Script' -InputObject $Task 
+Register-ScheduledTask -TaskName 'Custom Data' -InputObject $Task 
