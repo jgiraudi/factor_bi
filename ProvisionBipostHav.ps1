@@ -16,9 +16,9 @@ xcopy.exe C:\Goodline\customdata.json C:\bipost_havanna /Y
 
 xcopy.exe C:\goodline\customschema.json C:\bipost_havanna /Y
 
-$Action = New-ScheduledTaskAction -Execute 'pwsh.exe' -Argument '-NonInteractive -NoLogo -NoProfile -File "C:\Goodline\factor_bi\sync.ps1"'
+$Action = New-ScheduledTaskAction -Execute 'pwsh.exe' -Argument '-NonInteractive -NoLogo -NoProfile -File "C:\Goodline\sync.ps1"'
 
-$Trigger = New-ScheduledTaskTrigger -Daily -At 2am
+$Trigger = New-ScheduledTaskTrigger -Daily -At 10am
 
 $Settings = New-ScheduledTaskSettingsSet
 
