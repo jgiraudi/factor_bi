@@ -1,4 +1,6 @@
-Set-ExecutionPolicy Bypass-Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Force 
+
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco install -y git
 
@@ -7,7 +9,7 @@ mkdir C:\Goodline
 cd c:\Goodline
 
 
-C:\Program Files\Git\bin\git.exe clone https://github.com/jgiraudi/factor_bi.git .
+C:\"Program Files"\Git\bin\git.exe clone https://github.com/jgiraudi/factor_bi.git .
 
 
 xcopy.exe C:\Goodline\customdata.json C:\vansync_antares /Y
