@@ -20,6 +20,12 @@
     ]
   },
   {
+    "table": "MXPAPE",
+    "primaryKey": [
+      "ID"
+    ]
+  },
+  {
     "table": "MXAUD",
     "primaryKey": [
       "FECHA",
