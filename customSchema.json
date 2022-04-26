@@ -10,7 +10,7 @@
     ]
   },
   {
-    "table": "MXFAC",
+    "table": "MXCAJ",
     "primaryKey": [
       "FECHA",
       "NUMERO"
