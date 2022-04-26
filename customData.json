@@ -13,6 +13,18 @@
   },
   {
     "active": "true",
+    "table": "MXCAJ",
+    "fields": "*",
+    "join": "",
+    "filter": "fecha BETWEEN DATE() - 30 AND DATE()",
+    "recursiveDateField": "",
+    "order": "",
+    "limit": "",
+    "comment1": "30",
+    "comment2": ""
+  },
+  {
+    "active": "true",
     "table": "MXMVS",
     "fields": "*",
     "join": "",
